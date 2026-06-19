@@ -1,103 +1,83 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
-    },
+        name: "Ahmar",
+        fullName: "Ahmaryar Khan",
+        title: "Flutter Developer",
+        description: "Flutter Developer building cross-platform mobile applications and digital products. Experienced in Flutter, native Android development, web development, and backend integration, with a focus on scalable, high-performance, and user-centric solutions."
+    }
+    ,
     social: {
-        github: "red1-for-hek",
+        github: "codexahmar",
         email: "codexahmar@gmail.com",
-        location: "Bangladesh"
+        location: "Pakistan"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Flutter Developer from Pakistan specializing in cross-platform mobile apps. Experienced in Flutter, native development, and web development, with a focus on building reliable and easy-to-use applications. I enjoy creating digital products and turning ideas into working solutions."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Freelance Mobile Developer",
+            company: "Self-Employed",
+            period: "2022 - Present",
+            location: "Pakistan",
+            description: "Partnering with clients to transform ideas into high-quality, production-ready mobile applications. Focused on delivering scalable solutions, exceptional user experiences, and reliable performance across diverse industries.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Designing and developing custom Flutter applications tailored to client requirements",
+                "Integrating Firebase services, real-time features, push notifications, and third-party APIs",
+                "Optimizing application performance, fixing complex issues, and improving maintainability",
+                "Delivering end-to-end solutions with clean architecture and responsive UI/UX"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Flutter", "Dart", "Firebase", "GetX", "Google Maps", "Push Notifications", "Localization", "REST APIs"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Flutter Developer",
+            company: "Infusible Coder Pvt Ltd",
+            period: "2024 - 2025",
+            location: "Islamabad, Pakistan",
+            description: "Developed and maintained production-grade mobile applications with a strong focus on scalability, performance, and modern user experiences. Successfully delivered feature-rich solutions with backend integrations and Play Store deployments.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Building high-performance Flutter applications from concept to deployment",
+                "Integrating Firebase services, REST APIs, and third-party SDKs",
+                "Implementing clean architecture, state management, and reusable components",
+                "Publishing, maintaining, and optimizing applications on Google Play Store"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Flutter", "Dart", "Firebase", "Provider", "REST APIs", "Google AdMob", "State Management", "Play Store Deployment"]
         },
         {
             position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            company: "Brandora Agency",
+            period: "2023 - 2024",
+            location: "Kohat, Pakistan",
+            description: "Built modern web applications and backend systems while gaining hands-on experience across the full development lifecycle. Delivered responsive interfaces and scalable server-side solutions for business requirements.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Developing interactive and responsive user interfaces using React and JavaScript",
+                "Building RESTful APIs and backend services with Node.js and Express.js",
+                "Managing databases and implementing efficient application logic",
+                "Collaborating on frontend and backend features to deliver complete web solutions"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["React", "JavaScript", "Node.js", "Express.js", "MongoDB", "HTML", "CSS", "REST APIs"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Exploring New Technologies",
+            company: "Self-Development",
+            period: "2025 - Present",
+            location: "Pakistan",
+            description: "Focused on continuous engineering growth by exploring modern technologies, scalable software architectures, and industry best practices. Actively building side projects to strengthen problem-solving skills and stay aligned with evolving tech trends.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Researching and evaluating modern frameworks and emerging technologies",
+                "Experimenting with scalable system design and clean architecture principles",
+                "Developing side projects to apply new concepts in real-world scenarios",
+                "Engaging with developer communities and contributing to technical growth"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: [
+                "Software Architecture",
+                "System Design",
+                "Research & Development",
+                "Open Source",
+                "Modern Development Practices",
+                "Emerging Technologies"
+            ]
         }
     ],
     projects: [
@@ -167,12 +147,12 @@ export const config = {
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
+        email: "codexahmar@gmail.com",
+        github: "https://github.com/codexahmar",
+        linkedin: "https://linkedin.com/in/ahmaryarkhan",
+        twitter: "https://x.com/codexahmar",
         facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        instagram: "https://www.instagram.com/codexahmar"
     },
     skills: {
         develop: {
