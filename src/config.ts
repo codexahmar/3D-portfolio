@@ -151,7 +151,7 @@ export const config = {
         github: "https://github.com/codexahmar",
         linkedin: "https://linkedin.com/in/ahmaryarkhan",
         twitter: "https://x.com/codexahmar",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
+        // facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
         instagram: "https://www.instagram.com/codexahmar"
     },
     skills: {
