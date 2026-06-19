@@ -83,67 +83,66 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Locafii",
+            category: "Safety / Tracking",
+            technologies: "Flutter, Firebase, Google Maps, Geofencing, React.js",
+            image: "/images/locafii.png",
+            description:
+                "A family safety and real-time location tracking app with group tracking, geofencing, and secure access-based joining. Includes a React.js admin dashboard for monitoring users and managing system data in real time."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Quran & Prayer App",
+            category: "Islamic App",
+            technologies: "Flutter, Firebase, Provider, REST APIs, AdMob",
+            image: "/images/quran_app.png",
+            description:
+                "A feature-rich Islamic app with Quran reading, prayer timings, azkar, ahadees, and notifications. Includes offline support, localization, AdMob integration, and 10K+ Play Store downloads."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "SafeTap",
+            category: "Emergency / Safety",
+            technologies: "Flutter, Firebase, FCM, Google Maps, React.js",
+            image: "/images/safetap.png",
+            description:
+                "An emergency SOS application with real-time location sharing, alerts, and incident reporting. Integrated Firebase Cloud Messaging and a React admin dashboard for monitoring emergencies."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "Zuho",
+            category: "E-Commerce / Delivery",
+            technologies: "Flutter, Firebase, Google Maps, Payments, Localization",
+            image: "/images/zuho.png",
+            description:
+                "A grocery delivery app with product browsing, order management, and payment integration. Improved performance, fixed bugs, and enhanced location and localization features."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "Reward Coins App",
+            category: "Monetization / Rewards",
+            technologies: "Kotlin, Firebase, AdMob, Referral System",
+            image: "/images/reward_app.png",
+            description:
+                "A reward-based Android app where users earn coins through ads, referrals, and daily activity. Includes Firebase backend, AdMob integration, and referral tracking system."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "Pantho",
+            category: "Healthcare / Social",
+            technologies: "Flutter, Firebase, GetX",
+            image: "/images/pantho.png",
+            description:
+                "A blood donation platform connecting donors and seekers with a clean UI. Includes real-time Firebase data handling, authentication, and role-based flows."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "WeChat Clone",
+            category: "Chat / Messaging",
+            technologies: "Flutter, REST APIs, Firebase",
+            image: "/images/wechat.png",
+            description:
+                "A messaging application with real-time chat features and optimized UI performance. Improved messaging flows, bug fixes, and enhanced stability of communication features."
         }
     ],
     contact: {
