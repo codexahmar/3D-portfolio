@@ -156,16 +156,19 @@ export const config = {
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "FLUTTER ENGINEER",
+            description: "Cross-platform mobile apps & scalable backend systems",
+            details:
+                "Building production-ready mobile applications using Flutter with clean UI, performance optimization, and real-world integrations like Firebase, REST APIs, maps, and push notifications.",
+            tools: ["Flutter", "Dart", "Firebase", "Supabase", "REST APIs", "GetX", "Provider", "Maps API", "FCM", "Play Store"]
         },
+
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL-STACK DEVELOPER",
+            description: "Modern web apps & backend development",
+            details:
+                "Developing responsive web applications and scalable backend services using modern frameworks, APIs, and databases with focus on performance and clean architecture.",
+            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "Git", "REST APIs", "Firebase"]
         }
     }
 };
