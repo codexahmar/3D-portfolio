@@ -151,7 +151,8 @@ export const config = {
         linkedin: "https://linkedin.com/in/ahmaryarkhan",
         twitter: "https://x.com/codexahmar",
         // facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/codexahmar"
+        instagram: "https://www.instagram.com/codexahmar",
+        resume: "https://drive.google.com/file/d/1Sx8gbTCosovIEk3tpBVapksDLcD9kKJi/view?usp=sharing"
     },
     skills: {
         develop: {
