@@ -110,6 +110,15 @@ export const config = {
         },
         {
             id: 4,
+            title: "Pantho",
+            category: "Healthcare / Social",
+            technologies: "Flutter, Firebase, GetX",
+            image: "/images/pantho.png",
+            description:
+                "A blood donation platform connecting donors and seekers with a clean UI. Includes real-time Firebase data handling, authentication, and role-based flows."
+        },
+        {
+            id: 5,
             title: "Zuho",
             category: "E-Commerce / Delivery",
             technologies: "Flutter, Firebase, Google Maps, Payments, Localization",
@@ -118,7 +127,7 @@ export const config = {
                 "A grocery delivery app with product browsing, order management, and payment integration. Improved performance, fixed bugs, and enhanced location and localization features."
         },
         {
-            id: 5,
+            id: 6,
             title: "Reward Coins App",
             category: "Monetization / Rewards",
             technologies: "Kotlin, Firebase, AdMob, Referral System",
@@ -126,15 +135,7 @@ export const config = {
             description:
                 "A reward-based Android app where users earn coins through ads, referrals, and daily activity. Includes Firebase backend, AdMob integration, and referral tracking system."
         },
-        {
-            id: 6,
-            title: "Pantho",
-            category: "Healthcare / Social",
-            technologies: "Flutter, Firebase, GetX",
-            image: "/images/pantho.png",
-            description:
-                "A blood donation platform connecting donors and seekers with a clean UI. Includes real-time Firebase data handling, authentication, and role-based flows."
-        },
+
         {
             id: 7,
             title: "WeChat Clone",
