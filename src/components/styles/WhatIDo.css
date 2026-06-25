@@ -19,6 +19,8 @@
 
   .what-box:first-child {
     z-index: 13;
+    align-self: flex-start;
+    padding-top: 8vh;
   }
 }
 
