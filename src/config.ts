@@ -83,85 +83,75 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "Locafii",
-            category: "Safety / Tracking",
-            technologies: "Flutter, Firebase, Google Maps, Geofencing, React.js",
-            image: "/images/locafii.png",
+            title: "SnapSolve",
+            category: "AI Productivity",
+            technologies: "Flutter, GetX, Gemini API, OCR",
+            image: "/images/snapsolve.png",
             description:
-                "A family safety and real-time location tracking app with group tracking, geofencing, and secure access-based joining. Includes a React.js admin dashboard for monitoring users and managing system data in real time."
+                "An AI-powered mobile application that transforms handwritten and printed arithmetic problems into accurate calculations using Google Gemini Vision. Extracts mathematical expressions from images, evaluates complex DMAS operations, and presents detailed calculation history for quick verification."
         },
         {
             id: 2,
             title: "Quran & Prayer App",
-            category: "Islamic App",
+            category: "Islamic Lifestyle",
             technologies: "Flutter, Firebase, Provider, REST APIs, AdMob",
             image: "/images/quran_app.png",
             description:
-                "A feature-rich Islamic app with Quran reading, prayer timings, azkar, ahadees, and notifications. Includes offline support, localization, AdMob integration, and 10K+ Play Store downloads."
+                "A feature-rich Islamic companion application with Quran reading, prayer times, Qibla direction, Azkar, Ahadees, and multilingual support. Optimized for offline usage and trusted by more than 10,000 users through the Google Play Store."
         },
         {
             id: 3,
-            title: "SafeTap",
-            category: "Emergency / Safety",
-            technologies: "Flutter, Firebase, FCM, Google Maps, React.js",
-            image: "/images/safetap.png",
+            title: "Locafii",
+            category: "Location Intelligence",
+            technologies: "Flutter, Firebase, GetX, Google Maps, Push Notifications, React.js",
+            image: "/images/locafii.png",
             description:
-                "An emergency SOS application with real-time location sharing, alerts, and incident reporting. Integrated Firebase Cloud Messaging and a React admin dashboard for monitoring emergencies."
+                "A real-time family location sharing platform designed to improve personal safety through live tracking, geofencing alerts, and secure group management. Includes a React-based administrative dashboard and has been successfully published on the Google Play Store."
         },
         {
             id: 4,
-            title: "Pantho",
-            category: "Healthcare / Social",
-            technologies: "Flutter, Firebase, GetX",
-            image: "/images/pantho.png",
+            title: "Urdu Keyboard",
+            category: "Native Android",
+            technologies: "Flutter, Kotlin, Android IME, Firebase",
+            image: "/images/urdu_keyboard.png",
             description:
-                "A blood donation platform connecting donors and seekers with a clean UI. Includes real-time Firebase data handling, authentication, and role-based flows."
+                "A custom Urdu keyboard combining Flutter for the application interface with native Kotlin for the Android Input Method Service (IME). Delivers a fast and responsive multilingual typing experience and has been deployed to the Google Play Store."
         },
         {
             id: 5,
-            title: "Zuho",
-            category: "E-Commerce / Delivery",
-            technologies: "Flutter, Firebase, Google Maps, Payments, Localization",
-            image: "/images/zuho.png",
+            title: "Budgetly",
+            category: "FinTech",
+            technologies: "Flutter, Firebase, Firestore, Firebase Auth, GetX",
+            image: "/images/budgetly.png",
             description:
-                "A grocery delivery app with product browsing, order management, and payment integration. Improved performance, fixed bugs, and enhanced location and localization features."
+                "A personal finance management application that enables users to organize budgets, monitor expenses, review transaction history, and simulate peer-to-peer money transfers. Built with Firebase Authentication and Cloud Firestore for secure real-time synchronization."
         },
         {
             id: 6,
-            title: "Reward Coins App",
-            category: "Monetization / Rewards",
-            technologies: "Kotlin, Firebase, AdMob, Referral System",
-            image: "/images/reward_app.png",
+            title: "SafeTap",
+            category: "Emergency Response",
+            technologies: "Flutter, Firebase, Provider, FCM, Google Maps, React.js",
+            image: "/images/safetap.png",
             description:
-                "A reward-based Android app where users earn coins through ads, referrals, and daily activity. Includes Firebase backend, AdMob integration, and referral tracking system."
+                "An emergency response application that allows users to instantly share their live location, trigger SOS alerts, and report critical incidents. Powered by Firebase Cloud Messaging with a React-based dashboard for monitoring emergency activities."
         },
-
         {
             id: 7,
-            title: "WeChat Clone",
-            category: "Chat / Messaging",
-            technologies: "Flutter, REST APIs, Firebase",
-            image: "/images/wechat.png",
+            title: "Pantho",
+            category: "Healthcare",
+            technologies: "Flutter, Firebase, GetX",
+            image: "/images/pantho.png",
             description:
-                "A messaging application with real-time chat features and optimized UI performance. Improved messaging flows, bug fixes, and enhanced stability of communication features."
+                "A blood donation platform connecting donors with recipients through a streamlined mobile experience. Features authentication, role-based access, and real-time Firebase synchronization to simplify emergency blood requests."
         },
         {
             id: 8,
-            title: "Urdu Keyboard",
-            category: "Native Android",
-            technologies: "Flutter, Kotlin, Android SDK, Firebase",
-            image: "/images/urdu_keyboard.png",
+            title: "Fitness App UI",
+            category: "Client Project",
+            technologies: "Flutter, Material 3, Figma, Animations",
+            image: "/images/fitness_app.png",
             description:
-                "A custom Android Urdu keyboard built with Flutter and native Kotlin. Flutter powers the settings and management interface, while Kotlin handles the Input Method Service (IME), delivering a smooth typing experience and Play Store-ready deployment."
-        },
-        {
-            id: 9,
-            title: "Dating App UI",
-            category: "UI Showcase",
-            technologies: "Flutter, Dart, Material 3, Figma, Animations",
-            image: "/images/dating_app.png",
-            description:
-                "A premium dating app interface built in Flutter from a Figma design. Showcases pixel-perfect UI implementation, responsive layouts, smooth animations, reusable components, and production-quality Flutter craftsmanship."
+                "A premium fitness application interface developed for a client with a strong focus on responsive layouts, reusable components, fluid animations, and pixel-perfect implementation from professional Figma designs."
         }
     ],
     contact: {
