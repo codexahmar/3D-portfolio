@@ -1,12 +1,11 @@
 # 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./screen-capture%20(13).webm)
 
 A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
 If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
 
-> Live preview: https://www.redoyanulhaque.me/
+> Live preview: https://codexahmar.vercel.app/
 
 ---
 
@@ -35,7 +34,7 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 ### 1) Clone
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
+git clone https://github.com/codexahmar/3D-portfolio
 cd portfolio-website
 ```
 
@@ -82,7 +81,7 @@ If you found this useful:
 
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+- LinkedIn: https://www.linkedin.com/in/ahmaryarkhan/
 
 ---
 
@@ -92,8 +91,6 @@ Add these topics to improve GitHub search visibility:
 
 `portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
 
----
 
-## 🪪 License
 
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+
