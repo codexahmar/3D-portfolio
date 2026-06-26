@@ -84,30 +84,33 @@ export const config = {
         {
             id: 1,
             title: "SnapSolve",
-            category: "AI Productivity",
+            category: "AI-Powered Productivity",
             technologies: "Flutter, GetX, Gemini API, OCR",
             image: "/images/snapsolve.png",
             description:
-                "An AI-powered mobile application that transforms handwritten and printed arithmetic problems into accurate calculations using Google Gemini Vision. Extracts mathematical expressions from images, evaluates complex DMAS operations, and presents detailed calculation history for quick verification."
+                "An AI-powered calculator that extracts handwritten and printed mathematical expressions directly from images using Google Gemini Vision. Automatically evaluates complex DMAS calculations and presents accurate results with a clear breakdown of every detected expression."
         },
+
         {
             id: 2,
+            title: "Locafii",
+            category: "Location & Safety",
+            technologies: "Flutter, Firebase, GetX, Google Maps, Push Notifications, React.js",
+            image: "/images/locafii.png",
+            description:
+                "A real-time family location sharing platform built for personal safety. Features live GPS tracking, geofencing alerts, secure group management, and a React.js admin dashboard for monitoring users. Successfully published on the Google Play Store."
+        },
+
+        {
+            id: 3,
             title: "Quran & Prayer App",
             category: "Islamic Lifestyle",
             technologies: "Flutter, Firebase, Provider, REST APIs, AdMob",
             image: "/images/quran_app.png",
             description:
-                "A feature-rich Islamic companion application with Quran reading, prayer times, Qibla direction, Azkar, Ahadees, and multilingual support. Optimized for offline usage and trusted by more than 10,000 users through the Google Play Store."
+                "A comprehensive Islamic companion application featuring Quran reading, prayer timings, Qibla direction, Azkar, Ahadees, and multilingual support. Optimized for offline use and trusted by over 10,000 users on the Google Play Store."
         },
-        {
-            id: 3,
-            title: "Locafii",
-            category: "Location Intelligence",
-            technologies: "Flutter, Firebase, GetX, Google Maps, Push Notifications, React.js",
-            image: "/images/locafii.png",
-            description:
-                "A real-time family location sharing platform designed to improve personal safety through live tracking, geofencing alerts, and secure group management. Includes a React-based administrative dashboard and has been successfully published on the Google Play Store."
-        },
+
         {
             id: 4,
             title: "Urdu Keyboard",
@@ -115,17 +118,19 @@ export const config = {
             technologies: "Flutter, Kotlin, Android IME, Firebase",
             image: "/images/urdu_keyboard.png",
             description:
-                "A custom Urdu keyboard combining Flutter for the application interface with native Kotlin for the Android Input Method Service (IME). Delivers a fast and responsive multilingual typing experience and has been deployed to the Google Play Store."
+                "A custom Urdu keyboard combining Flutter for the application interface with native Kotlin for the Android Input Method Service (IME). Designed to deliver a fast, responsive, and production-ready multilingual typing experience for Android users."
         },
+
         {
             id: 5,
             title: "Budgetly",
-            category: "FinTech",
+            category: "Personal Finance",
             technologies: "Flutter, Firebase, Firestore, Firebase Auth, GetX",
             image: "/images/budgetly.png",
             description:
-                "A personal finance management application that enables users to organize budgets, monitor expenses, review transaction history, and simulate peer-to-peer money transfers. Built with Firebase Authentication and Cloud Firestore for secure real-time synchronization."
+                "A personal finance management application that helps users organize budgets, monitor expenses, review transaction history, and simulate peer-to-peer money transfers using Firebase Authentication and Cloud Firestore."
         },
+
         {
             id: 6,
             title: "SafeTap",
@@ -133,25 +138,27 @@ export const config = {
             technologies: "Flutter, Firebase, Provider, FCM, Google Maps, React.js",
             image: "/images/safetap.png",
             description:
-                "An emergency response application that allows users to instantly share their live location, trigger SOS alerts, and report critical incidents. Powered by Firebase Cloud Messaging with a React-based dashboard for monitoring emergency activities."
+                "An emergency response platform enabling users to instantly trigger SOS alerts, share live locations, and report critical incidents. Includes Firebase Cloud Messaging and a React.js admin dashboard for real-time emergency monitoring."
         },
+
         {
             id: 7,
-            title: "Pantho",
-            category: "Healthcare",
-            technologies: "Flutter, Firebase, GetX",
-            image: "/images/pantho.png",
-            description:
-                "A blood donation platform connecting donors with recipients through a streamlined mobile experience. Features authentication, role-based access, and real-time Firebase synchronization to simplify emergency blood requests."
-        },
-        {
-            id: 8,
-            title: "Fitness App UI",
-            category: "Client Project",
-            technologies: "Flutter, Material 3, Figma, Animations",
+            title: "Fitness App",
+            category: "Healthcare & Fitness",
+            technologies: "Flutter, GetX, Clean Architecture",
             image: "/images/fitness_app.png",
             description:
-                "A premium fitness application interface developed for a client with a strong focus on responsive layouts, reusable components, fluid animations, and pixel-perfect implementation from professional Figma designs."
+                "A production-ready fitness application developed for a client using Flutter. Features responsive screens, modular architecture, reusable widgets, and smooth animations to deliver a premium mobile experience."
+        },
+
+        {
+            id: 8,
+            title: "Pantho",
+            category: "Healthcare",
+            technologies: "Flutter, GetX, Clean Architecture",
+            image: "/images/pantho.png",
+            description:
+                "A production-ready blood donation application developed for a client. Designed with clean architecture, responsive layouts, intuitive user flows, and scalable Flutter components for a seamless healthcare experience."
         }
     ],
     contact: {
