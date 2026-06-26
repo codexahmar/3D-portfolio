@@ -144,6 +144,24 @@ export const config = {
             image: "/images/wechat.png",
             description:
                 "A messaging application with real-time chat features and optimized UI performance. Improved messaging flows, bug fixes, and enhanced stability of communication features."
+        },
+        {
+            id: 8,
+            title: "Urdu Keyboard",
+            category: "Native Android",
+            technologies: "Flutter, Kotlin, Android SDK, Firebase",
+            image: "/images/urdu_keyboard.png",
+            description:
+                "A custom Android Urdu keyboard built with Flutter and native Kotlin. Flutter powers the settings and management interface, while Kotlin handles the Input Method Service (IME), delivering a smooth typing experience and Play Store-ready deployment."
+        },
+        {
+            id: 9,
+            title: "Dating App UI",
+            category: "UI Showcase",
+            technologies: "Flutter, Dart, Material 3, Figma, Animations",
+            image: "/images/dating_app.png",
+            description:
+                "A premium dating app interface built in Flutter from a Figma design. Showcases pixel-perfect UI implementation, responsive layouts, smooth animations, reusable components, and production-quality Flutter craftsmanship."
         }
     ],
     contact: {
