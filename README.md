@@ -1,96 +1,93 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# 🚀 Modern 3D Developer Portfolio
 
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
+A premium, high-performance 3D portfolio template designed for software engineers and creative developers. This project seamlessly integrates interactive WebGL elements with a polished UI, delivering an immersive storytelling experience.
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://codexahmar.vercel.app/
-
----
-
-## ✨ Highlights
-
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+> **Live Showcase:** [codexahmar.vercel.app](https://codexahmar.vercel.app/)
 
 ---
 
-## 🧰 Tech Stack
+## ✨ Features
 
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+- **🎭 Immersive 3D Environment:** Powered by **React Three Fiber** and **Drei** for high-performance 3D rendering.
+- **🎬 Cinematic Animations:** Ultra-smooth motion sequences and scroll-triggered effects driven by **GSAP**.
+- **⚡ Lightning Fast:** Built with **Vite** for near-instant hot module replacement and optimized production builds.
+- **📱 Fully Responsive:** Adaptive design ensuring a consistent, premium experience across mobile, tablet, and desktop.
+- **🎯 Modular Architecture:** Clean, scalable code structure following modern React best practices and TypeScript for full type safety.
+- **📜 Smooth Scrolling:** Integrated with **Lenis** for a refined, natural scrolling feel.
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Technology Stack
 
-### 1) Clone
+| Category | Tools |
+| :--- | :--- |
+| **Frontend** | React 18, TypeScript, CSS Modules |
+| **3D Engine** | Three.js, React Three Fiber, R3F-Drei |
+| **Animation** | GSAP (GreenSock), Lenis Smooth Scroll |
+| **Build Tool** | Vite |
+| **Deployment** | Vercel |
 
+---
+
+## 🏁 Quick Start
+
+### 1. Clone & Navigate
 ```bash
-git clone https://github.com/codexahmar/3D-portfolio
+git clone https://github.com/codexahmar/3D-portfolio.git
 cd portfolio-website
 ```
 
-### 2) Install
-
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### 3) Run locally
-
+### 3. Launch Development Server
 ```bash
 npm run dev
 ```
 
-### 4) Build
-
+### 4. Build for Production
 ```bash
 npm run build
 ```
 
 ---
 
-## 🧩 Customize (Quick Guide)
+## ⚙️ Customization Guide
 
-Typical things you’ll want to update:
+Tailoring the portfolio to your brand is straightforward:
 
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
+1. **Identity & Data:** Open `src/config.ts` to update your name, professional summary, projects, and social links.
+2. **Visual Styling:** Modify global CSS variables in `src/index.css` or component-specific styles in `src/components/styles/`.
+3. **3D Assets:** Drop your custom 3D models (.glb/.gltf) and textures into the `public/` directory.
 
 ---
 
-## 🤝 Connect
+## 🤝 Support & Contribution
 
-- LinkedIn: https://www.linkedin.com/in/ahmaryarkhan/
+If this template helps you showcase your work, please consider:
+- Giving the project a ⭐ **Star** on GitHub
+- Sharing it with your developer network
+- Opening an Issue or Pull Request for enhancements
 
 ---
 
-## 🏷️ Recommended GitHub Topics (add in repo settings)
+## 🔗 Let's Connect
 
-Add these topics to improve GitHub search visibility:
+**Ahmaryar Khan**  
+*Flutter & Full-Stack Engineer*
 
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+[LinkedIn](https://linkedin.com/in/ahmaryarkhan) | [GitHub](https://github.com/codexahmar) | [Portfolio](https://codexahmar.vercel.app/)
 
+---
 
+## 📄 License
 
-
+Distributed under the [MIT License](LICENSE).
