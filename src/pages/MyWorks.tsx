@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { config } from "../config";
 import "./MyWorks.css";
 
 const MyWorks = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
     <div className="myworks-page">
       <div className="myworks-header">
@@ -19,8 +22,15 @@ const MyWorks = () => {
         {config.projects.map((project, index) => (
           <div className="myworks-card" key={project.id} data-cursor="disable">
             <div className="myworks-card-number">0{index + 1}</div>
-            <div className="myworks-card-image">
+            <div
+              className="myworks-card-image"
+              onClick={() => setSelectedImage(project.image)}
+              style={{ cursor: 'zoom-in' }}
+            >
               <img src={project.image} alt={project.title} />
+              <div className="image-overlay">
+                <span>🔍 Click to View</span>
+              </div>
             </div>
             <div className="myworks-card-info">
               <h3>{project.title}</h3>
@@ -31,6 +41,16 @@ const MyWorks = () => {
           </div>
         ))}
       </div>
+
+      {/* Lightbox / Image Magnifier Modal */}
+      {selectedImage && (
+        <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-modal" onClick={() => setSelectedImage(null)}>×</button>
+            <img src={selectedImage} alt="Work detail" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
